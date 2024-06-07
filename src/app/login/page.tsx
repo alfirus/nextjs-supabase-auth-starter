@@ -1,6 +1,6 @@
 "use client";
 import Spinner from "@/components/Spinner";
-import { signInWithPassword } from "@/utils/functions/auth";
+import supabaseBrowser from "@/utils/supabase/browser";
 import { EyeNoneIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import { toast } from "sonner";
@@ -21,7 +21,7 @@ const Login = () => {
       return toast.error("Please Input All Data");
     }
 
-    const { error } = await signInWithPassword({
+    const { error } = await supabaseBrowser.auth.signInWithPassword({
       email,
       password,
     });
