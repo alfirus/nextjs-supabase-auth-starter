@@ -7,7 +7,7 @@ import Protected from "@/components/auth/Protected";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Socials | Messaging App",
+  title: "NextJS Supabase Auth Starter App",
   description: "created by github.com/zeyadsallam",
 };
 
