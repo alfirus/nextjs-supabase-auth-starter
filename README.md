@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Responsive NextJS App starter template with built in supabase authentication using TailwindCSS
+
+![Login Page](preview/login.png)
+![Register Page](preview/register.png)
+
 ## Getting Started
 
 Input your Supabase database config info into the .env file (use `.env.example` as a template)
